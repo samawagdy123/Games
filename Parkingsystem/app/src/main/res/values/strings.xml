@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Parking system</string>
+    <string name="welcome">Welcome</string>
+    <string name="APP">Parking System</string>
+    <string name="todo">TODO</string>
+    <string name="submit">SUBMIT</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="pass">*********</string>
+    <string name="Name">Name</string>
+    <string name="User_Name"></string>
+    <string name="A1">" A1 "</string>
+    <string name="A2">" A2 "</string>
+    <string name="not_avaliable">"This parking is not Available !"</string>
+    <string name="avaliable"> " This parking is Available. "</string>
+    <string name="book">CLICK TO BOOK A SLOT</string>
+    <string name="toDo">TODO</string>
+    <string name="Todo">TODO</string>
+    <string name="toDO">TODO</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="main_title">Main Title</string>
+    <string name="TOdo">TODO</string>
+    <string name="fristName">Frist Name</string>
+    <string name="jhon">Jhon</string>
+    <string name="last_name">Last Name</string>
+    <string name="wick">wick</string>
+    <string name="first_name">Frist Name</string>
+    <string name="jhonwick_gmail_com">jhonwick@gmail.com</string>
+    <string name="_91_7896578987">+91 7896578987</string>
+    <string name="phone">Phone</string>
+    <string name="already_have_an_account">already have an account ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">SUBMIT</string>
+</resources>
