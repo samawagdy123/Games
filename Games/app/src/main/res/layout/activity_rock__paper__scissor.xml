@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rock_Paper_Scissor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/rock_paper_scissors"
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="@string/computer"
+                android:fontFamily="casual"
+                android:textColor="@color/teal_200"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/computer_move_img"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/quitestion_mark" />
+
+            <TextView
+                android:id="@+id/winner_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/space"
+                android:textColor="#F11010"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/player"
+                android:textColor="@color/teal_200"
+                android:textSize="30sp"
+                android:fontFamily="casual" />
+
+            <ImageView
+                android:id="@+id/user_move_img"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/quitestion_mark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15sp">
+
+            <ImageView
+                android:id="@+id/rock_btn"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:onClick="rock"
+                android:src="@drawable/rock_icon" />
+
+            <ImageView
+                android:id="@+id/paper_btn"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:onClick="paper"
+                android:src="@drawable/paper_icon" />
+
+            <ImageView
+                android:id="@+id/scissors_btn"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:onClick="scissor"
+                android:src="@drawable/scissors_icon" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
